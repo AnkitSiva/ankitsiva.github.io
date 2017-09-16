@@ -36,6 +36,7 @@
 // Define base and accent colors
 $base-color: #59CD90;
 $base-color-hover: darken($base-color, 10%);
+$base-color-hover-lighten: lighten($base-color, 10%);
 
 // Define background colors
 $background: #fff;
@@ -738,6 +739,13 @@ padding: 50px 15px;
         color: #fff;
         font-weight: 500;
     }
+
+	i {
+		color: $background-alt;
+		&:hover {
+			color: $background;
+		}
+	}
 }
 
 #contact-form {
