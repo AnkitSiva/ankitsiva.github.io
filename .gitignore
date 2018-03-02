@@ -1,3 +1,5 @@
 *.swp
 Old\ Stuff
 node_modules
+Resume/*
+!Resume/Amaresh\ Ankit\ Siva\ -\ Resume.pdf
